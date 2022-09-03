@@ -1,0 +1,38 @@
+<div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    math
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    physics
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    chemistry
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    economics
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    geography
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    history
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    biology
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    psychology
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    other
+                  </label>
+                </div>         
