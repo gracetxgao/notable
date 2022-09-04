@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 
-* { 
+body { 
   font-family: 'Montserrat';
   background-color: rgb(202, 216,226);
   color: rgb(132,126,129);
@@ -23,8 +23,13 @@
   text-decoration: none;
 }
 
-footer {
+footer * {
+  /* outline-style: solid; */
   background-color: rgb(242,242,242);
+}
+
+footer p {
+  padding-bottom: 20px;
 }
 
 #notes, #logo {
@@ -35,4 +40,109 @@ footer {
 
 #description {
   background-color: rgb(242,242,242);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  /* outline-style: solid; */
+}
+
+#description > h1, p {
+  background-color: rgb(242,242,242);
+  margin-bottom: 0;
+  padding: 0 10%;
+  /* outline-style: dotted; */
+}
+
+#description > span {
+  display: block;
+  height: 20px;
+  background-color: rgb(242,242,242);
+}
+
+.home-text {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#carousel {
+  min-height: 60vh;
+  display: grid;
+  place-items: center;
+}
+
+.slider {
+  height: 400px;
+  /* margin: auto; */
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+
+.slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 300px;
+  transition: transform 1s;
+}
+
+.carousel-img:hover {
+  transform: translateZ(20px);
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, rgba(202,216,226,1) 0%,
+  rgba(255,255,255,0) 100%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
