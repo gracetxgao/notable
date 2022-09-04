@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+body { 
+    font-family: 'Montserrat';
+    color: rgb(132,126,129);
+    text-align: center;
+}
+
+.col-sm-4 {
+  background-color: rgb(242,242,242);
+}
+  
+.col-sm-8 {
+  right: 0;
+  background-color: rgb(202, 216,226);
+}
+
+#logo {
+  margin-top: 3rem;
+  size: 40%;
+}
+
+.box{
+    
+    height: 600px;
+    
+    width: 900px;
+    border: 36px;
+    background-color: white;
+    margin: 40px;
+    color:black;
+    line-height: 18px;
+    font-size: 48px;
+    text-align: center;
+    line-height: 600px;
+    vertical-align: middle;
+    
+    }
+
+.logo {
+    height: 150px;
+    vertical-align: middle;
+    width: 400px;   
+}
+
+.form-range {
+  width: 300px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.ck-button {
+    margin:4px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+}
+
+.ck-button {
+    margin:4px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+}
+
+
+.ck-button label {
+    float:left;
+    width:8.0em;
+    margin: 0;
+}
+
+.ck-button label span {
+    text-align:center;
+    padding:3px 0px;
+    display:block;
+}
+
+.ck-button label input {
+    position:absolute;
+    top:-20px;
+}
+
+.ck-button input:checked + span {
+    background-color:#CAD8E2;
+    color:#fff;
+}
+
+input[type="text"] {
+    display: block;
+    margin : 0 auto;
+    margin-bottom: 0px;
+}
+
+#grade {
+    margin-top: 150px;
+}
+
+footer {
+    outline-style: solid;
+    background-color: rgb(242,242,242);
+}
