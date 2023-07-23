@@ -1,5 +1,6 @@
 # notable
 Built for MesoHacks 2022 and Hack to School 2022
+https://devpost.com/software/notable-nje6m7
 
 Have you ever missed a class and never been able to catch up with the lesson?
 Have you ever forgotten to write down a vital part of your notes and failed your test?
