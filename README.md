@@ -1,5 +1,5 @@
 # notable
-Built for MesoHacks 2022 and Hack to School 2022
+Built for the virtual hackathons MesoHacks 2022 and Hack to School 2022
 https://devpost.com/software/notable-nje6m7
 
 Have you ever missed a class and never been able to catch up with the lesson?
